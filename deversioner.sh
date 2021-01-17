@@ -71,7 +71,7 @@ else
 					clean_folder "${D}/WIP/3d/light"
 					D=$a
 				fi
-				if [ ! -d "${D}/WIP/2d/comp" ] && [ ! -d "${D}/WIP/2d/comp" ] && [ ! -d "${D}/WIP/2d/comp" ]; then
+				if [ ! -d "${D}/WIP/2d/comp" ] && [ ! -d "${D}/publish/2d/comp" ] && [ ! -d "${D}/WIP/3d/light" ]; then
 					for_each_folder ${D}
 				fi
 			fi
